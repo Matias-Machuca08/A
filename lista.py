@@ -22,4 +22,10 @@ print("cantidad de elementos: ", len(lista))
 lista.reverse()
 print(lista)
 
-lista.insert
+lista.insert(2, 500)
+print (lista)
+
+lista3=[1000,2000]
+# agrega una lista previa a otra
+lista.extend(lista3)
+print (lista)
