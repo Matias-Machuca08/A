@@ -29,3 +29,5 @@ lista3=[1000,2000]
 # agrega una lista previa a otra
 lista.extend(lista3)
 print (lista)
+
+print ("Hola")
