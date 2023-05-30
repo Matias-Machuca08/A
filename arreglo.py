@@ -53,10 +53,11 @@ print("sumar los elementos: ", arr1.sum())
 print("valor menor: ", arr1.min())
 print("valor mayor: ", arr1.max())
 ------------------------------------
-import random
+from numpy import random
+numero = random.randint(100)
+print(numero)
 
-arr1 = []
+arreglo = random.randint(100, size=[10])
 
-for i in random (10):
-    arr1.append (random.randint(0,100))
-    print(arr1.append)
+print(arreglo)
+-------------------------------------
